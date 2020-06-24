@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
   res.json({
     date: today,
-    msg: `time-to-fly`,
+    msg: `time-to-fly-again`,
     up: `${(Date.now() - dateStart) / 1000} seg.` 
   });
 });
